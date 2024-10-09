@@ -1,0 +1,19 @@
+
+/* CSS pour rendre la barre de navigation inline */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline; /* c'est la propriété clé pour un affichage inline */
+    margin-right: 10px; /* ajoute un peu d'espace entre les éléments */
+}
+nav a {
+    text-decoration: none; /* optionnel : enlève le soulignement des liens */
+    color: black; /* optionnel : couleur du texte des liens */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
