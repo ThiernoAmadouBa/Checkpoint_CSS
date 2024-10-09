@@ -4,16 +4,46 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: center;
 }
 nav li {
     display: inline; /* c'est la propriété clé pour un affichage inline */
     margin-right: 10px; /* ajoute un peu d'espace entre les éléments */
+    margin-left: 100px;
 }
 nav a {
     text-decoration: none; /* optionnel : enlève le soulignement des liens */
-    color: black; /* optionnel : couleur du texte des liens */
+    color: #2978b5; /* Couleur pour les liens, choisis une couleur visible et agréable */
+    font-weight: bold; /* Rend le texte des liens gras */
+    transition: color 0.3s; /* Animation de transition pour les changements de couleur */
 }
 
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+#home , #about, #resume , #contact , #work{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+form > input {
+    margin-left: 30px;
+    
+}
+form{
+    margin-top: -20px;
+}
+ footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 20px;
+ }
+
+ p{
+   font-size: 14px;
+}
+    
+
